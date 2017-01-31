@@ -1,0 +1,22 @@
+
+<html>
+<head>
+function (add) {
+function goes here
+}
+</head>
+<div id='txt'></div>
+<form action="" method="post">
+<input type="text" id='mynum'>
+<input type="button" onclick="add()">
+
+    <script type="text/javascript">
+function add() {
+    var num = document.getElementById("mynum").value;
+    if(num == '') num = 0;
+    document.getElementById("mynum").value = parseInt(num ,10) + 1;
+    }
+</script>
+    
+</form>
+</html>
